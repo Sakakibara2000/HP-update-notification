@@ -40,7 +40,7 @@ HP-update-notification/
 - **BeautifulSoup4**: HTML解析（ブログ用）
 - **Selenium + webdriver-manager**: 動的コンテンツの取得（UR用）
 - **smtplib**: Gmail SMTP経由のメール送信
-- **GitHub Actions**: 自動実行環境（毎日AM9:00 JST）
+- **GitHub Actions**: 自動実行環境（1日3回: 6:00、12:00、18:00 JST）
 
 ## main.pyの構造
 
@@ -95,7 +95,7 @@ TARGET_UR_PROPERTIES = {...}  # 9物件の定義
 
 ## GitHub Actions設定
 
-**実行スケジュール**: 毎日 0:00 UTC（日本時間 9:00 AM）
+**実行スケジュール**: 1日3回 21:00, 3:00, 9:00 UTC（日本時間 6:00, 12:00, 18:00）
 
 **環境変数（GitHub Secrets）**:
 - `GMAIL_ADDRESS` - 送信元Gmailアドレス
@@ -190,6 +190,9 @@ https://www.t-p-o.com/blog/31973
 
 **スケジュール変更:**
 - `.github/workflows/main.yml`のcron式を編集
+- 例: 1日1回（9:00 JST）に戻す → `cron: '0 0 * * *'`
+- 例: 1時間ごと → `cron: '0 * * * *'`
+- 現在: 1日3回（6:00, 12:00, 18:00 JST） → `cron: '0 21,3,9 * * *'`
 
 ## トラブルシューティング
 
