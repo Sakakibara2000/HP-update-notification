@@ -2,8 +2,8 @@ name: Blog Update Checker
 
 on:
   schedule:
-    # 毎日午前9時 (JST) に実行 (UTCで0時)
-    - cron: '0 0 * * *'
+    # 毎日6時、12時、18時 (JST) に実行 (UTCで21時、3時、9時)
+    - cron: '0 21,3,9 * * *'
   workflow_dispatch:
 
 jobs:
