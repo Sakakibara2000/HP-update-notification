@@ -26,6 +26,11 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
+      - name: Install Chrome and ChromeDriver
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y chromium-browser chromium-chromedriver
+
       - name: Run script
         env:
           GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
@@ -37,7 +42,7 @@ jobs:
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add last_article.txt
+          git add last_article.txt ur_properties.json
           # 変更があった場合のみコミットする (変更がなければ exit code 1 になるのを防ぐ)
-          git diff --staged --quiet || git commit -m "Update last article URL"
+          git diff --staged --quiet || git commit -m "Update last article URL and UR vacancy state"
           git push
