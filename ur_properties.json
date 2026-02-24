@@ -1,68 +1,68 @@
 {
-  "last_updated": "2026-02-24T09:47:35.832251",
+  "last_updated": "2026-02-24T21:31:06.098569",
   "properties": {
     "20_1830": {
       "name": "大井六丁目",
       "ward": "品川区",
       "vacancy_count": 0,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_1830.html",
-      "last_changed": "2026-02-24T09:47:47.920030"
+      "last_changed": "2026-02-24T21:31:24.696673"
     },
     "20_3550": {
       "name": "品川八潮パークタウン 潮路北第二ハイツ",
       "ward": "品川区",
       "vacancy_count": 0,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_3550.html",
-      "last_changed": "2026-02-24T09:47:57.551241"
+      "last_changed": "2026-02-24T21:31:34.300506"
     },
     "20_3640": {
       "name": "品川八潮パークタウン 潮路南第一ハイツ",
       "ward": "品川区",
       "vacancy_count": 0,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_3640.html",
-      "last_changed": "2026-02-24T09:48:07.659477"
+      "last_changed": "2026-02-24T21:31:44.652125"
     },
     "20_3810": {
       "name": "品川八潮パークタウン 潮路中央ハイツ",
       "ward": "品川区",
       "vacancy_count": 0,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_3810.html",
-      "last_changed": "2026-02-24T09:48:17.347287"
+      "last_changed": "2026-02-24T21:31:54.495295"
     },
     "20_7220": {
       "name": "コンフォール品川西大井",
       "ward": "品川区",
       "vacancy_count": 0,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_7220.html",
-      "last_changed": "2026-02-24T09:48:24.976721"
+      "last_changed": "2026-02-24T21:32:05.635758"
     },
     "20_4920": {
       "name": "デュプレ芝浦",
       "ward": "港区",
       "vacancy_count": 0,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_4920.html",
-      "last_changed": "2026-02-24T09:48:34.564953"
+      "last_changed": "2026-02-24T21:32:15.025249"
     },
     "20_5180": {
       "name": "恵比寿ビュータワー",
       "ward": "目黒区",
       "vacancy_count": 0,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_5180.html",
-      "last_changed": "2026-02-24T09:48:45.299407"
+      "last_changed": "2026-02-24T21:32:25.688944"
     },
     "20_6480": {
       "name": "中目黒ゲートタウンハイツ",
       "ward": "目黒区",
       "vacancy_count": 0,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_6480.html",
-      "last_changed": "2026-02-24T09:48:55.945479"
+      "last_changed": "2026-02-24T21:32:39.515543"
     },
     "20_7090": {
       "name": "中目黒アトラスタワー",
       "ward": "目黒区",
       "vacancy_count": 0,
       "url": "https://www.ur-net.go.jp/chintai/kanto/tokyo/20_7090.html",
-      "last_changed": "2026-02-24T09:49:06.474922"
+      "last_changed": "2026-02-24T21:32:49.932947"
     }
   }
 }
